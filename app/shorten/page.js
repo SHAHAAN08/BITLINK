@@ -2,7 +2,7 @@
 import React from 'react'
 import { useState } from 'react'
 
-const shorten = () => {
+const Shorten = () => {
     const [url, seturl] = useState("")
     const [shorturl, setshorturl] = useState("")
     const [generated, setGenerated] = useState("")
@@ -59,4 +59,4 @@ const shorten = () => {
   )
 }
 
-export default shorten
+export default Shorten
