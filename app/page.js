@@ -17,7 +17,7 @@ export default function Home() {
             Just paste your link and shorten instantly!
           </p>
           <div className="flex gap-4 justify-center md:justify-start">
-            <Link href="/Shorten">
+            <Link href="/shorten">
               <button className="bg-purple-600 hover:bg-purple-700 transition-all text-white rounded-xl shadow-lg px-6 py-3 font-semibold cursor-pointer">
                 🚀 Try Now
               </button>
